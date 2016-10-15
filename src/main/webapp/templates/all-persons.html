@@ -1,0 +1,5 @@
+<div ng-repeat="u in ctrl.users">
+    <img ng-src="{{u.picture.thumbnail}}"/>
+    <span>{{u.first + " " + u.last}}</span>
+    <a href="#{{u}}">details</a> 
+</div>
